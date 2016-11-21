@@ -649,6 +649,7 @@ $bodyColor: rgb(102,115,133);*/
 }
 .location2{
 	top: 1570px;
+	left: 150px;
 }
 .location3{
 	left: 900px;
@@ -656,6 +657,23 @@ $bodyColor: rgb(102,115,133);*/
 .location4{
 	top: 1570px;
 	left: 900px;
+}
+/* size này trở lên là danh cho desktop thông thường */
+@media all and (min-width: 1920px) {
+ 	.location1{
+		left: 250px;
+	}
+	.location2{
+		top: 1570px;
+		left: 250px;
+	}
+	.location3{
+		left: 1400px;
+	}
+	.location4{
+		top: 1570px;
+		left: 1400px;
+	}
 }
 .feature_item .des{
 	float: left;
