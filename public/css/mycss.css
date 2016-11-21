@@ -665,7 +665,7 @@ $bodyColor: rgb(102,115,133);*/
 	right: 50px;
 }
 /* size này trở lên là danh cho desktop thông thường */
-@media all and (min-width: 1920px) {
+/*@media all and (min-width: 1920px) {
  	.location1{
 		left: 250px;
 	}
@@ -680,7 +680,7 @@ $bodyColor: rgb(102,115,133);*/
 		top: 1570px;
 		left: 1400px;
 	}
-}
+}*/
 .feature_item .des{
 	float: left;
 	width: 220px;
@@ -729,8 +729,17 @@ $bodyColor: rgb(102,115,133);*/
 /*=====================CSS FOR EXPERIENCE=================*/
 #experience {
 	background: #e74c3c;
-	padding: 50px 0;
+	/*padding: 50px 0;*/
 	overflow-x: hidden;
+	background: url('../img/mobile-on-table.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#experience .opacity_bg_experience{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.55);
+	padding: 50px 0;
 }
 #experience .content {
 	text-align: center;
@@ -1387,4 +1396,103 @@ $bodyColor: rgb(102,115,133);*/
     100% {
         transform: translateY(-30px) scale(1, 1);
     }
+}
+
+/*=====================CSS FOR REFERENCE=============================*/
+#reference{
+	width: 100%;
+	text-align: center;
+	background: url('../img/meeting-room.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 500px;	
+}
+
+#reference .opacity_bg_reference{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.65);
+	padding: 50px;
+}
+#reference h1{
+	color: white;
+	margin-bottom: 100px;
+}
+#cto_Toan{
+	height: 100%;
+	width: 50%;
+	float: left;
+	color: white;
+	text-align: left;
+	padding-left: 105px;
+	font-size: 17px;
+}
+#leader_Tin{
+	height: 100%;
+	width: 50%;
+	float: left;
+	color: white;
+	text-align: left;
+	padding-left: 105px;
+	font-size: 17px;
+}
+
+/*=====================CSS FOR CONTACT ME=============================*/
+#contact_me{
+	width: 100%;
+	text-align: center;
+	background: url('../img/mac_os.jpg');
+	background-size: cover;
+	background-position: center;
+	/*height: 300px;	*/
+}
+#contact_me .opacity_bg_contact{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.65);
+	padding: 50px;
+}
+#contact_me h1{
+	color: white;
+	margin-bottom: 100px;
+}
+.contact_info{
+	height: 100%;
+	width: 50%;
+	float: left;
+	color: white;
+	text-align: left;
+	padding-left: 105px;
+	font-size: 12px;
+}
+
+.send_me{
+	height: 100%;
+	width: 50%;
+	float: left;
+	color: white;
+	text-align: left;
+	/*padding-left: 105px;*/
+}
+.send_me .name_email_subject{
+	margin-bottom: 10px;
+}
+.send_me .name_email_subject input{
+	background: none;
+	border-radius: 0px;
+	color: white;
+}
+.send_me .messeger{
+	margin-bottom: 10px;
+}
+.send_me .messeger textarea{
+	background: none;
+	border-radius: 0px;
+	color: white;
+}
+.send_me .btn_mess{
+	background: none;
+	border-radius: 0px;
+	color: white;
+	float: right;
 }
